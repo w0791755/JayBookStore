@@ -24,3 +24,6 @@ change the nav class
 remove the text-dark 
 lastly remove references to "text-dark"
 then test the app 
+
+31st oct, 2022
+completed bootstrap 
