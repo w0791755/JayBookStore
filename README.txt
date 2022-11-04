@@ -79,3 +79,9 @@ step 4 still pending
 total 11 commits
 update and commit to the git 
 stop working.......
+
+1236 
+open repo in lab PC
+start working but errors still there
+.....
+stop working... 
