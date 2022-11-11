@@ -85,3 +85,8 @@ open repo in lab PC
 start working but errors still there
 .....
 stop working... 
+
+2022-11-11
+due to word mistake i got two errors in the error.cshtml and errorViewModel.cs file 
+run application 
+its run...:)

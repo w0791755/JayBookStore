@@ -31,7 +31,7 @@ namespace JayBookStore.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new JayBookStore.Models.ViewModels.ErrorViewModel { RequestedId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new JayBookStore.Models.ViewModels.ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
