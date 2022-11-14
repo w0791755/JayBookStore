@@ -119,6 +119,25 @@ Added a new Admin area in Areas
 Added the proper view files and delete the Data and Models folder
 Delete the Controllers folder
 Update the GitHub repo......
+Finished Part 1 with zero errors....
+
+2022-11-14
+
+1250
+Created the migrations (using code-first, where changes are “pushed” to the database), modify the database name and save.
+Use the NuGet Package Manager Console to add the migration (with a meaningful name).
+Note what happens if the wrong default project is selected.
+Change to the correct default project (.DataAccess) and run again.
+Added the new migration file name entry in the README.
+Added a new table to the DB by creating a Category model and push it to the DB:
+Added a new class file to the .Models project and modify
+Added the migration via the PM Console
+The new migration file will be empty because it hasn’t been added to the Application DB Context
+Update this and note the added using statement
+Re-run the add-migration and review the changes to the AddCategoryToDb (resolve the duplication error that will occur).
+Update the database, confirm the new Categories table via the SQL SOE and push commits to GitHub
+
+
 
 
 
