@@ -132,6 +132,7 @@ Added the new migration file name entry in the README.
 Added a new table to the DB by creating a Category model and push it to the DB:
 Added a new class file to the .Models project and modify
 Added the migration via the PM Console
+migration file name: 20221114045924_AddDefaultIdentityMigration.cs
 The new migration file will be empty because it hasn’t been added to the Application DB Context
 Update this and note the added using statement
 Re-run the add-migration and review the changes to the AddCategoryToDb (resolve the duplication error that will occur).
@@ -151,9 +152,18 @@ rebuild
 and
 clean the project 
 
+2022-11-14
 
+Started working on the project 
+rebuild and clean 
+Create individual repos for category  
+CategoryRepository.cs
+ICategoryRepository.cs
+Modified CategoryRepository 
 
-
-
-
-
+1314
+Modified ICategoryRepository interface
+Review and modify the error now in CategoryRepository.cs (implement the interface to update)
+Complete the remaining modifications (note the comments)
+Rebuild, fixed any error showing and 
+push commits to GitHub
