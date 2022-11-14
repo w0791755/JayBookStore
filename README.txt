@@ -136,6 +136,22 @@ The new migration file will be empty because it hasn’t been added to the Appli
 Update this and note the added using statement
 Re-run the add-migration and review the changes to the AddCategoryToDb (resolve the duplication error that will occur).
 Update the database, confirm the new Categories table via the SQL SOE and push commits to GitHub
+rebuild 
+and
+clean the project 
+
+
+
+1257
+Add a new folder name it ‘Repository’ (for class implementations of interfaces) and add an IRepository (for the interfaces) folder inside it.
+Add a new item of type interface to the folder and name it IRepository.cs 
+Modify the code to create the constructors and dependency injection (DI)
+from Assignment 2 folder
+rebuild 
+and
+clean the project 
+
+
 
 
 
