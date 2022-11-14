@@ -90,3 +90,35 @@ stop working...
 due to word mistake i got two errors in the error.cshtml and errorViewModel.cs file 
 run application 
 its run...:)
+
+2022-11-12
+start working on the project
+In the Utility project, createda static details class called SD.cs
+Modify the properties of the class
+Add project reference to the main project
+In the DataAccess project add project references t o Models and Utility
+
+2348
+
+Added a ‘Customers’ area to Areas
+Changed the routes in Startup.cs like the one outlined in the ScaffoldingReadMe.txt
+Moved the HomeController.cs to the Area > Customer > Controller folder and delete Data and Models.
+Edit the HomeController.cs to explicitly define that the controller is in the Customer Area
+Moved Views > Home and modify the HomeController namespace
+Rebuild and clean the project 
+right there is zero errors 
+then run the application 
+it runs .........
+Copy _ViewImport and _ViewStart to Customer Area
+Modify the _ViewStart.cshtml to reflect the new path
+Run the application now
+it runs perfect..
+
+2352
+Added a new Admin area in Areas
+Added the proper view files and delete the Data and Models folder
+Delete the Controllers folder
+Update the GitHub repo......
+
+
+

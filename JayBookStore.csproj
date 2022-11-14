@@ -12,11 +12,19 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\JayBooks.DataAccess\JayBooks.DataAccess.csproj" />
     <ProjectReference Include="..\JayBooks.Models\JayBooks.Models.csproj" />
+    <ProjectReference Include="..\JayBooks.Utility\JayBooks.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
