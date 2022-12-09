@@ -151,53 +151,9 @@ rebuild
 and
 clean the project 
 
-2022-11-17
 
-getting 3 constant error so try started again. 
 
-2022-11-18
 
-Create the project.
-JayBookStore is its name.
-decide on an ASP.NET core WebApp (Model View-Controller)
-choosing a unique account authentication
-Create a WebApp in Visual Studio 2019 using ASP.NETcore 3.1.
-Ssl comment port
-build a bootstrap
-visit Bootswatch.com first
-choosing a VAPOR theme
-the bootstrap.css file for it, then
-then swap out the current bootstrap.css
-then make the site.css file changes.
-update the existing bootstrap.min.css to bootstarp.css by going to the views folder.
-add three projects and give it a name
-JayBooks.DataAccess
-JayBooks.Models
-JayBooks.Utility
-Copied data folder and
-paste to the .DataAccess project
-and discard the original.
-NuGet packages were installed.
-.EntityFrameworkCore.Relational
-&
-SQL Server packages in
-then get rid of the migrations folder.
 
-0827
-Setup an additional NuGet package
-.EnityframeworkCore
-Version installs all of the aforementioned versions (3.0.16)
-then after run the app 
-after that don't how am i getting 6 errors :(
-tried to solve error many tiimes 
-then after worked on the first one only. 
-solved the error then completed till part 3 but getting 
-in visual studio no issues found but on browser the error is 
-This localhost page can’t be foundNo webpage was found for the web address
-i forgot to commit on github due to those errors 
 
-2022-12-9 
-completed till part 3
-submitting the first project 
-final commit.......
 
