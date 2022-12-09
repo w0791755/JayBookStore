@@ -167,3 +167,58 @@ Review and modify the error now in CategoryRepository.cs (implement the interfac
 Complete the remaining modifications (note the comments)
 Rebuild, fixed any error showing and 
 push commits to GitHub
+getting constant error so started on the new project 
+
+
+2022-11-18
+Create the project.
+JayBookStore is its name.
+decide on an ASP.NET core WebApp (Model View-Controller)
+choosing a unique account authentication
+Create a WebApp in Visual Studio 2019 using ASP.NETcore 3.1.
+Ssl comment port
+build a bootstrap
+visit Bootswatch.com first
+choosing a VAPOR theme
+the bootstrap.css file for it, then
+then swap out the current bootstrap.css
+then make the site.css file changes.
+update the existing bootstrap.min.css to bootstarp.css by going to the views folder.
+alter the navigation class
+Delete the dark text.
+Remove all references to "text-dark" last.
+then examine the app.
+finished bootstrap
+add three projects and give it a name
+JayBooks.DataAccess
+JayBooks.Models
+JayBooks.Utility
+copy of the data folder
+the.DataAccess project by pasting
+and discard the original.
+NuGet packages were installed.
+.EntityFrameworkCore.Relational
+&
+SQL Server packages in
+then get rid of the migrations folder.
+Setup an additional NuGet package
+.EnityframeworkCore
+Version installs all of the aforementioned versions (3.0.161031
+Get rid of the default Class1.cs file from each project.
+then construct the project.
+Move the models in JayBooks.
+Get rid of the original
+modified the Error.cshtml file after that
+Project reference added
+changed the name of the Models folder to ViewModels.
+ErrorViewModels.cs was swapped out for.Models.ViewModels.
+Rebuild the project
+but now i am getting 6 errors don't know how :(..
+so worked on the first one again 
+completed till the part 3 
+forgot to coomit 
+
+
+2022-12-9
+final commit 
+and subit the link
